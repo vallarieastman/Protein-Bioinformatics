@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -euxo pipefail
+
+# Make 'conda activate' work in a non-interactive shell on Binder
+if [ -f "/srv/conda/etc/profile.d/conda.sh" ]; then
+  . /srv/conda/etc/profile.d/conda.sh
+elif [ -f "/opt/conda/etc/profile.d/conda.sh" ]; then
+  . /opt/conda/etc/profile.d/conda.sh
+fi
+
+# Activate the environment created by your environment.yml
+# (make sure your environment.yml is named md-311 OR change this line)
+conda activate md-311 || mamba activate md-311
+
+# Register a nice display name for the Jupyter kernel
+python -m ipykernel install --user --name md-311 --display-name "Python (md-311)"
+
+# Widgets are usually fine on JupyterLab 3+, but this is harmless:
+jupyter nbextension enable --py widgetsnbextension --sys-prefix || true
