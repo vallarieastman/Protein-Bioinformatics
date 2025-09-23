@@ -1,0 +1,9 @@
+name: md-311
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - ipywidgets>=8
+  - py3dmol
+  - ipykernel
