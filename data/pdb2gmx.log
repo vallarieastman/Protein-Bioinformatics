@@ -25,7 +25,7 @@ Opening force field file /opt/miniconda3/envs/md-311/share/gromacs/top/charmm27.
 Opening force field file /opt/miniconda3/envs/md-311/share/gromacs/top/charmm27.ff/dna.c.tdb
 Opening force field file /opt/miniconda3/envs/md-311/share/gromacs/top/charmm27.ff/rna.c.tdb
 
-Back Off! I just backed up topol.top to ./#topol.top.9#
+Back Off! I just backed up topol.top to ./#topol.top.14#
 Analysing hydrogen-bonding network for automated assignment of histidine
  protonation. 362 donors and 349 acceptors were found.
 There are 555 hydrogen bonds
@@ -79,11 +79,11 @@ Opening force field file /opt/miniconda3/envs/md-311/share/gromacs/top/charmm27.
 Opening force field file /opt/miniconda3/envs/md-311/share/gromacs/top/charmm27.ff/dna.arn
 Opening force field file /opt/miniconda3/envs/md-311/share/gromacs/top/charmm27.ff/rna.arn
 
-Back Off! I just backed up topol_Protein_chain_A.itp to ./#topol_Protein_chain_A.itp.5#
+Back Off! I just backed up topol_Protein_chain_A.itp to ./#topol_Protein_chain_A.itp.6#
 Before cleaning: 9703 pairs
 Before cleaning: 9778 dihedrals
 
-Back Off! I just backed up posre_Protein_chain_A.itp to ./#posre_Protein_chain_A.itp.5#
+Back Off! I just backed up posre_Protein_chain_A.itp to ./#posre_Protein_chain_A.itp.6#
 Analysing hydrogen-bonding network for automated assignment of histidine
  protonation. 74 donors and 80 acceptors were found.
 There are 118 hydrogen bonds
@@ -105,15 +105,15 @@ Opening force field file /opt/miniconda3/envs/md-311/share/gromacs/top/charmm27.
 Opening force field file /opt/miniconda3/envs/md-311/share/gromacs/top/charmm27.ff/dna.arn
 Opening force field file /opt/miniconda3/envs/md-311/share/gromacs/top/charmm27.ff/rna.arn
 
-Back Off! I just backed up topol_Protein_chain_B.itp to ./#topol_Protein_chain_B.itp.5#
+Back Off! I just backed up topol_Protein_chain_B.itp to ./#topol_Protein_chain_B.itp.6#
 Before cleaning: 1959 pairs
 Before cleaning: 1979 dihedrals
 
-Back Off! I just backed up posre_Protein_chain_B.itp to ./#posre_Protein_chain_B.itp.5#
+Back Off! I just backed up posre_Protein_chain_B.itp to ./#posre_Protein_chain_B.itp.6#
 
-Back Off! I just backed up 1fjs_processed.gro to ./#1fjs_processed.gro.5#
+Back Off! I just backed up 1fjs_processed.gro to ./#1fjs_processed.gro.6#
 
-GROMACS reminds you: "All Work and No Play Makes Jack a Dull Boy" (The Shining)
+GROMACS reminds you: "A ship in port is safe, but that is not what ships are for. Sail out to sea and do new things." (Grace Hopper, developer of COBOL)
 
 Using the Charmm27 force field in directory charmm27.ff
 
