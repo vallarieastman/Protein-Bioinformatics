@@ -1,0 +1,24 @@
+; ---- Energy Minimization (CHARMM27/TIP3P) ----
+integrator      = steep
+emtol           = 1000
+emstep          = 0.01
+nsteps          = 50000
+
+cutoff-scheme   = Verlet
+ns_type         = grid
+nstlist         = 20
+pbc             = xyz
+
+coulombtype     = PME
+rcoulomb        = 1.2
+vdwtype         = switch
+rvdw-switch     = 1.0
+rvdw            = 1.2
+
+constraints     = h-bonds
+constraint_algorithm = lincs
+lincs_iter      = 1
+lincs_order     = 4
+
+; neighbors
+nstenergy       = 10
