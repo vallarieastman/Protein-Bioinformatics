@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
-set -euxo pipefail
+# .binder/postBuild  — robust kernel registration for Binder
 
-# Make 'conda activate' work in a non-interactive shell on Binder
-if [ -f "/srv/conda/etc/profile.d/conda.sh" ]; then
-  . /srv/conda/etc/profile.d/conda.sh
-elif [ -f "/opt/conda/etc/profile.d/conda.sh" ]; then
-  . /opt/conda/etc/profile.d/conda.sh
+# Find a working Python inside the env repo2docker builds
+if [ -n "${CONDA_PREFIX:-}" ] && [ -x "$CONDA_PREFIX/bin/python" ]; then
+  PY="$CONDA_PREFIX/bin/python"
+elif [ -x "/srv/conda/envs/notebook/bin/python" ]; then
+  PY="/srv/conda/envs/notebook/bin/python"
+elif [ -x "/opt/conda/envs/notebook/bin/python" ]; then
+  PY="/opt/conda/envs/notebook/bin/python"
+else
+  PY="python"  # fallback
 fi
 
-# Activate the environment created by your environment.yml
-# (make sure your environment.yml is named md-311 OR change this line)
-conda activate md-311 || mamba activate md-311
+# Register a friendly kernel name; ignore if already installed
+"$PY" -m ipykernel install --user --name md-311 --display-name "Python (md-311)" || true
 
-# Register a nice display name for the Jupyter kernel
-python -m ipykernel install --user --name md-311 --display-name "Python (md-311)"
-
-# Widgets are usually fine on JupyterLab 3+, but this is harmless:
+# Widgets usually OK on JLab 3/4; keep this harmless
 jupyter nbextension enable --py widgetsnbextension --sys-prefix || true
