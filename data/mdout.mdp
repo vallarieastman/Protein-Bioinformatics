@@ -2,7 +2,7 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: val (501)
 ;	On host: Vallaris-MacBook-Pro.local
-;	At date: Mon Sep 22 19:49:10 2025
+;	At date: Wed Oct 22 20:38:30 2025
 ;
 ;	Created by:
 ;	               :-) GROMACS - gmx grompp, 2025.3-conda_forge (-:
@@ -175,7 +175,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -566241282
+gen-seed                 = 2012196779
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds

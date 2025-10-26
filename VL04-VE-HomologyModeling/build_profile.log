@@ -1,0 +1,57 @@
+
+                         MODELLER 10.7, 2025/05/28, r13093
+
+     PROTEIN STRUCTURE MODELLING BY SATISFACTION OF SPATIAL RESTRAINTS
+
+
+                     Copyright(c) 1989-2025 Andrej Sali
+                            All Rights Reserved
+
+                             Written by A. Sali
+                               with help from
+              B. Webb, M.S. Madhusudhan, M-Y. Shen, G.Q. Dong,
+          M.A. Marti-Renom, N. Eswar, F. Alber, M. Topf, B. Oliva,
+             A. Fiser, R. Sanchez, B. Yerkovich, A. Badretdinov,
+                     F. Melo, J.P. Overington, E. Feyfant
+                 University of California, San Francisco, USA
+                    Rockefeller University, New York, USA
+                      Harvard University, Cambridge, USA
+                   Imperial Cancer Research Fund, London, UK
+              Birkbeck College, University of London, London, UK
+
+
+Kind, OS, HostName, Kernel, Processor: 4, Darwin Vallaris-MacBook-Pro.local 22.6.0 x86_64
+Date and time of compilation         : 2025/05/28 10:38:26
+MODELLER executable type             : mac10v4-intel64
+Job starting time (YY/MM/DD HH:MM:SS): 2025/09/28 15:41:08
+
+openf___224_> Open           $(LIB)/restyp.lib
+openf___224_> Open           ${MODINSTALL10v7}/modlib/restyp_cif.lib
+openf___224_> Open           ${MODINSTALL10v7}/modlib/resgrp.lib
+rdresgr_266_> Number of residue groups:        2
+openf___224_> Open           ${MODINSTALL10v7}/modlib/sstruc.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       194446     189.889     0.185
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       194974     190.404     0.186
+openf___224_> Open           ${MODINSTALL10v7}/modlib/resdih.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       243574     237.865     0.232
+rdrdih__263_> Number of dihedral angle types         :        9
+              Maximal number of dihedral angle optima:        3
+              Dihedral angle names                   :  Alph Phi Psi Omeg chi1 chi2 chi3 chi4 chi5
+openf___224_> Open           ${MODINSTALL10v7}/modlib/radii.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       256874     250.854     0.245
+openf___224_> Open           ${MODINSTALL10v7}/modlib/af_mnchdef.lib
+rdwilmo_274_> Mainchain residue conformation classes:  APBLE
+openf___224_> Open           ${MODINSTALL10v7}/modlib/mnch.lib
+rdclass_257_> Number of classes:        5
+openf___224_> Open           ${MODINSTALL10v7}/modlib/mnch1.lib
+openf___224_> Open           ${MODINSTALL10v7}/modlib/mnch2.lib
+openf___224_> Open           ${MODINSTALL10v7}/modlib/mnch3.lib
+openf___224_> Open           ${MODINSTALL10v7}/modlib/xs4.mat
+rdrrwgh_268_> Number of residue types:       21
+openf___224_> Open           TvLDH.pir
+read_al_373E> Protein specified in ALIGN_CODES(i) was not found
+              in the alignment file; ALIGN_CODES(       1) =  TvLDH
