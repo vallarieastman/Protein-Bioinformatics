@@ -1,0 +1,22 @@
+[PHOSforUS analysis results]
+
+## Sequence_label: >Manual_seq_input
+
+## RAW_sequence
+
+ACDEFGHIKLMNPQRSTVWY
+
+## Mapped_phosphorylation_sites
+
+____________________
+
+## Site_wise_details
+
+Sites	P-type	Predict	Log_score	Phos_prob
+16	S-	NONPHOS	-2.069651886534991	0.11208167791355839
+17	T-	NONPHOS	-1.9764498918166105	0.12169779052456121
+20	Y-	NONPHOS	-1.6653887258075397	0.15903995020631137
+
+## Start_time: 09 18:13:52.405346
+## End_time: 09 18:13:52.421319
+## Time_rapsed: 0:00:00.015973
