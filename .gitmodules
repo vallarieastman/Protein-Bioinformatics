@@ -1,2 +1,3 @@
 [submodule "VL09_PTM-Networks/PHOSforUS"]
 	path = VL09_PTM-Networks/PHOSforUS
+ 	url = https://github.com/vallarieastman/PHOSforUS.git
