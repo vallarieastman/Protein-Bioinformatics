@@ -1,3 +1,7 @@
 [submodule "VL09_PTM-Networks/PHOSforUS"]
-	path = VL09_PTM-Networks/PHOSforUS
- 	url = https://github.com/vallarieastman/PHOSforUS.git
+    path = VL09_PTM-Networks/PHOSforUS
+    url = https://github.com/vallarieastman/PHOSforUS.git
+
+[submodule "VL09_PTM-Networks/MusiteDeep"]
+    path = VL09_PTM-Networks/MusiteDeep
+    url = https://github.com/vallarieastman/MusiteDeep.git
