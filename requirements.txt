@@ -1,3 +1,0 @@
-py3Dmol
-ipywidgets>=8
-jupyterlab
